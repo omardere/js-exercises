@@ -1,4 +1,5 @@
-function filter(list, filterFn){
+
+const fillter=(list, filterFn)=>{
 	let newArray=[];
 	if(!list) return newArray;
 	for(let item of list){
@@ -8,3 +9,4 @@ function filter(list, filterFn){
 	}
 	return newArray;
 }
+module.exports=fillter;

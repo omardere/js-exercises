@@ -1,4 +1,4 @@
-function find(list, findFn){
+const find=(list, findFn)=>{
     let findItem=undefined;
     if(!list) return findItem;
     for(let item of list){
@@ -10,9 +10,4 @@ function find(list, findFn){
     return findItem;
 
 }
-
-const array1 = [5, 12, 8, 130, 44];
-
-const found = find(array1,element => element > 10);
-
-console.log(found);
+module.exports=find;

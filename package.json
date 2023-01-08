@@ -1,0 +1,23 @@
+{
+  "name": "Js-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fillter.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omardere/js-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omardere/js-exercises/issues"
+  },
+  "homepage": "https://github.com/omardere/js-exercises#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
